@@ -3,3 +3,4 @@ waitress
 flask-cors
 SQLAlchemy
 psycopg2-binary
+flask_sqlalchemy
