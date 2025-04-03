@@ -2,7 +2,8 @@ from flask import Flask, jsonify, request
 from waitress import serve
 from flask_cors import CORS
 from flask_sqlalchemy import SQLAlchemy
-from model import db, User
+# from model import db, User
+from server.model import db, User
 import psycopg2
 
 app = Flask(__name__)
