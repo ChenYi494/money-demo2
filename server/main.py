@@ -1,7 +1,9 @@
 from flask import Flask, jsonify
 from waitress import serve
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)  # 允許所有來源的請求
 
 
 @app.route("/api/spec")
